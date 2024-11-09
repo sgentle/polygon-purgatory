@@ -1,0 +1,12 @@
+{
+  "name": "polygon-purgatory",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild matter-stub.js --outfile=lib/matter.js --bundle --format=esm"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "matter-js": "0.14.2"
+  }
+}

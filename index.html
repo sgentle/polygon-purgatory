@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+  <title>Polygon Purgatory</title>
+  <style>
+    body {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      background-color: black;
+      overflow: hidden;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    #warning {
+      position: absolute;
+      font-size: 64px;
+      font-family: sans-serif;
+      color: white;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      text-align: center;
+      line-height: 50vh;
+      z-index: 1;
+      opacity: 1;
+      transition: opacity 0.5s ease-out;
+    }
+    @starting-style {
+      #warning {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="warning">
+    Click to enter<br>
+    Warning: Noisy
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
